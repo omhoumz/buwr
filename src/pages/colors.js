@@ -1,21 +1,21 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import Layout from "../components/layout"
+import Layout from "../components/layout/layout"
 import SEO from "../components/seo"
 
 const colorCircleStyles = {
-  width: '24px',
-  height: '24px',
-  borderRadius: '50px',
-  marginRight: '1rem',
-  display: 'inline-block',
+  width: "24px",
+  height: "24px",
+  borderRadius: "50px",
+  marginRight: "1rem",
+  display: "inline-block",
 }
 
 const colorWrapper = {
-  display: 'flex',
-  alignItems: 'center',
-  marginBottom: '0.5rem',
+  display: "flex",
+  alignItems: "center",
+  marginBottom: "0.5rem",
 }
 
 const Colors = () => (
@@ -35,7 +35,7 @@ const Colors = () => (
       { label: "--green-800", color: "#326609" },
       { label: "--beige", color: "#e0d6ce" },
     ].map(({ label, color }, index) => (
-      <div style={{...colorWrapper}} key={index}>
+      <div style={{ ...colorWrapper }} key={index}>
         <span style={{ ...colorCircleStyles, backgroundColor: color }} />
         <code>{label}</code>
       </div>
