@@ -1,3 +1,19 @@
+:root {
+  --prpl-100: #d7c7ff;
+  --prpl-200: #b994ff;
+  --prpl-400: #6805f2;
+  --prpl-700: #4108af;
+  --prpl-800: #120572;
+
+  --green-100: #f5ffd4;
+  --green-200: #daf995;
+  --green-400: #8ec622;
+  --green-700: #729b19;
+  --green-800: #326609;
+
+  --beige: #e0d6ce;
+}
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
